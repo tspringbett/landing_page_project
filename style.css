@@ -13,7 +13,7 @@ body {
     align-items: center;
     background-color: #1F2937;
     margin: 0;
-    padding: 16px;
+    padding-bottom: 16px;
 }
 
 .header-title {
@@ -40,7 +40,7 @@ a {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #1F2937;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
 }
 
@@ -52,11 +52,87 @@ a {
 
 .awesome-title {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 
 .awesome-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.random-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 24px;
+    margin: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.random-pic {
+    border-radius: 10px;
+}
+
+.random-text {
+    width: 200px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote {
+    width: 750px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.Thor {
+    display: flex;
+    justify-content: flex-end;
+    width: 900px;
+    font-weight: bold;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 16px 40px;
+    margin: 50px 70px;
+    border-radius: 5px;
+}
+
+.action {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.action-title {
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    font-weight: 18px;
+    background-color: #1F2937;
+    padding: 20px;
 }
