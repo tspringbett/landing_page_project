@@ -26,7 +26,6 @@ ul {
     list-style: none;
     gap: 24px;
     font-size: 18px;
-    
 }
 
 a {
@@ -41,7 +40,16 @@ a {
     padding-bottom: 100px;
     background-color: #1F2937;
     flex-wrap: nowrap;
+}
 
+.top-button {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    max-width: 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    border-color: white;
 }
 
 .top-container {
@@ -128,6 +136,14 @@ a {
     font-weight: bold;
 }
 
+.action-button {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    max-width: 150px;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+}
 .footer {
     display: flex;
     justify-content: center;
@@ -135,4 +151,5 @@ a {
     font-weight: 18px;
     background-color: #1F2937;
     padding: 20px;
+    
 }
